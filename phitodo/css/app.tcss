@@ -1,0 +1,108 @@
+/* Phitodo TUI Styles */
+
+/* Screen and App */
+Screen {
+    background: $background;
+}
+
+/* Main container layout */
+#main-container {
+    height: 1fr;
+}
+
+#content-area {
+    width: 1fr;
+}
+
+/* Sidebar styling is in sidebar.py */
+
+/* Toolbar styling is in toolbar.py */
+
+/* Task list styling is in task_list.py and task_item.py */
+
+/* Common styles */
+.hidden {
+    display: none;
+}
+
+/* Focus styles */
+*:focus {
+    border: solid $primary;
+}
+
+/* Button variants */
+Button {
+    min-width: 12;
+}
+
+Button.-primary {
+    background: $primary;
+}
+
+Button.-success {
+    background: $success;
+}
+
+Button.-error {
+    background: $error;
+}
+
+/* Input styles */
+Input {
+    border: solid $surface-darken-2;
+    background: $surface;
+}
+
+Input:focus {
+    border: solid $primary;
+}
+
+/* TextArea styles */
+TextArea {
+    border: solid $surface-darken-2;
+    background: $surface;
+}
+
+TextArea:focus {
+    border: solid $primary;
+}
+
+/* Select styles */
+Select {
+    border: solid $surface-darken-2;
+    background: $surface;
+}
+
+/* ListView styles */
+ListView {
+    background: transparent;
+}
+
+ListItem {
+    background: transparent;
+}
+
+ListItem:hover {
+    background: $primary 20%;
+}
+
+ListItem.-highlight {
+    background: $primary 40%;
+}
+
+/* Markdown styles */
+Markdown {
+    margin: 0;
+    padding: 1;
+}
+
+/* Notifications */
+Toast {
+    background: $surface;
+    border: solid $primary;
+}
+
+/* Modal screens */
+ModalScreen {
+    background: $background 80%;
+}
